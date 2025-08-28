@@ -3,16 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
     <title>Document</title>
 </head>
 <body>
-     <input id="city">
-    <button id = "getweather">Get Weather</button>
+    <div id = "search">
+    <label  for="city">
+    City:</label>
+     <input id="city" placeholder="Enter a City...">
+    <button id = "getweather">&#10004;</button>
    
     <p id = "weatherResult"></p>
-    <img src = "images/partlysunny.png">
+    </div>
+
+    <div id = "layout">
+        <div id = "maininfo">
+            <div id = location>
+                <p id = "citystate"></p>
+                <p id = "country"></p>
+            </div>
+            
+            <p id = "date"></p>
+            <img id = "icon" >
+            <p id = "condition"></p>
+            <p id= "temp"></p>
+            <section id = "extragallery">
+            <div class = "extra">
+                <p id="uv">UV: </p>
+            </div>
+            <div class = "extra">
+                <p id = "high">High: </p>
+                <p id = "low">Low: </p>
+            </div>
+            <div class = "extra">
+                <p id="rain">Chance of Rain: </p>
+            </div>
+            </section>
+        </div>
+    </div>
 <script src = "weather.js"></script>
 </body>
 </html>

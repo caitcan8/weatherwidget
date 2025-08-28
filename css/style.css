@@ -1,3 +1,110 @@
-img{
-    width: 100px;
+:root {
+  /* Define your color variables */
+  --bg-color: #FFFAFE;
+  --primary-color: #B0DFF7;
+  --accent-color: #F7E9B0;
+  --text-color: #333;
+  --border-color: #95BBCF;
 }
+
+
+body {
+    display: grid;
+    /* grid-template-rows: 1fr 9fr 5fr; */
+    background-color: var(--bg-color);
+    
+}
+img{
+    width: 320px;
+    z-index: 1;
+    /* position:absolute; */
+}
+button{
+    width:50px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    height: 100%;
+}
+p{
+    z-index: 5;
+}
+html{
+    font-family: "Gamja Flower";
+    font-size: 30px;
+    color: #333;
+}
+
+#search{
+    grid-row: 1/span 1;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--accent-color);
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width:200px;
+    font-family: "Gamja Flower";
+    font-size:30px;
+    background-color: var(--accent-color);
+    border: none 0px white;
+    caret-color: #333;
+    margin-left: 2px;
+}
+
+
+#layout{
+    grid-row:2/span 1;
+    display:grid;
+    grid-template-rows: auto 1fr;
+    grid-gap: 10px;
+}
+#maininfo{
+    grid-row: 1/span 1;
+    display: grid;
+    grid-template-rows:  auto auto 200px auto auto auto;
+    align-items: center;
+    justify-items: center;
+    font-size:25px;
+    background-color: var(--primary-color);
+}
+#location{
+    grid-row: 1/span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#date{
+    grid-row:2/span 1;
+}
+#icon{
+    grid-row: 3/span 1;
+}
+#condition{
+    grid-row: 4/span 1;
+}
+#temp{
+    grid-row: 5/span 1;
+    font-size:40px;
+}
+
+#extragallery{
+    grid-row: 6/span 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.extra, #maininfo, #search{
+    border-style: solid;
+    border-color: var(--border-color);
+    border-radius: 8px;
+    border-width: 3px;
+    margin: 6px;
+    padding: 4px;
+}
+
+.extra{
+    background-color: var(--accent-color);
+}
+
