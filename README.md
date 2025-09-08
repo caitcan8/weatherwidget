@@ -1,8 +1,8 @@
 # weatherwidget
 note: dont push api keys 
 <h2>Weather Widget</h2>
-    <p>Github repository: <a href = "https://github.com/caitcan8/weatherwidget" > Weather Widget</a></p>
-    </div>
+    
+    
     <div class = "description">
         <h3>Description</h3>
         <p>In this project, I designed a weather app widget using Javascript, CSS, and Electron. It fetches accurate weather data from <a href = "https://www.weatherapi.com/">WeatherApi</a> and displays weather data based on a city of the users choosing. It is designed to look like a standalone widget with a clean user interface.</p>
