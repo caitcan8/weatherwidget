@@ -3,11 +3,11 @@ note: dont push api keys
 <h2>Weather Widget</h2>
     
     
-    <div class = "description">
+    
         <h3>Description</h3>
         <p>In this project, I designed a weather app widget using Javascript, CSS, and Electron. It fetches accurate weather data from <a href = "https://www.weatherapi.com/">WeatherApi</a> and displays weather data based on a city of the users choosing. It is designed to look like a standalone widget with a clean user interface.</p>
-    </div>
-    <div class = "keyfeatures">
+  
+    
         <h3>Key Features</h3>
         <ul>
             <li>Frontend: CSS, HTML, and JavaScript </li>
@@ -18,10 +18,10 @@ note: dont push api keys
             <li>Error handling for invalid cities</li>
             <li>.env variables to secure API keys</li>
         </ul>
-    </div>
+  
    
     
-    <div class = "usage">
+
        <h3>Usage</h3>
        <ul>
         <li>Clone Repository</li>
@@ -38,4 +38,4 @@ note: dont push api keys
         </li>
        </ul>
 
-    </div>
+
