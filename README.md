@@ -19,14 +19,7 @@ note: dont push api keys
             <li>.env variables to secure API keys</li>
         </ul>
     </div>
-    <div id = "imggallery">
-       
-       
-        <img src = "images/cloudyexample.png">
-        <img src = "images/partlycloudyexample.png">
-        <img src = "images/sunnyexample.png">
-        
-    </div>
+   
     
     <div class = "usage">
        <h3>Usage</h3>
